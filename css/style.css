@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.car-image {
+  background-image: url("../images/jaguar-xe.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.box-text {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: left;
+  color: white;
+  max-width: 600px;
+  position: absolute;
+  top: 12%;
+  left: 5%;
+  right: 5%;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 25px;
+}
+
+p {
+  margin: 10px 25px;
+  line-height: 150%;
+}
+
+a {
+  margin: 13px 25px;
+  background-color: #DB3030;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+}
